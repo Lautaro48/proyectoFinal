@@ -125,3 +125,28 @@ header button {
     margin-left: 60px;
     margin-top: 30px;
 }
+#Services {
+    width: 100%;
+    height: 800px;
+    background-image: url(images/section4-image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.accordion_propio {
+    width: 45%;
+    height: 30%;
+    margin-left: 150px;
+    padding-top: 200px;
+}
+.accordion_propio p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #5F6368;
+}
+.accordion_propio button {
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    color: #5F6368;
+}
