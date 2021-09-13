@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@import "layouts/variables";
+@import "layouts/header";
+@import "layouts/nav";
+@import "layouts/about";
+@import "layouts/product";
+@import "layouts/services";
+@import "layouts/contact";
+@import "layouts/footer";

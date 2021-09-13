@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/slider-1.png);
+  background-size: cover;
+  background-position: center;
+}
+header .text1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 48px;
+  margin-top: 158px;
+  margin-left: 110px;
+}
+header .text2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 110px;
+}
+header header button {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 14px 32px;
+  margin-top: 40px;
+  margin-left: 110px;
+  background-color: #e0752f;
+  border: solid #e0752f;
+  border-radius: 25px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+.nav .logo {
+  padding-left: 100px;
+}
+.nav .menu {
+  display: flex;
+  padding-right: 110px;
+}
+.nav .menu .menu li {
+  list-style: none;
+  margin: 25px;
+}
+.nav .menu .menu li .menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+#About {
+  background-color: #fff;
+  width: 100%;
+  height: 700px;
+}
+#About .caja_orange {
+  width: 30px;
+  height: 400px;
+  background-color: #e0752f;
+  float: left;
+  margin-top: 150px;
+}
+#About .text3 {
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+#About .text3 .black {
+  color: #343434;
+}
+#About .text3 .orange {
+  color: #e0752f;
+}
+#About .text4 {
+  width: 750px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-left: 400px;
+}
+
+#Product {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7e7e7;
+  background: linear-gradient(90deg, #e7e7e7 75%, #bbbbbb 75%);
+}
+#Product .section_3 {
+  width: 1000px;
+  height: 600px;
+  background-image: url(images/section3-image.png);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#Product .section_3 .section_3_caja {
+  width: 500px;
+  height: 300px;
+  background-color: #e0752f;
+  color: #fff;
+}
+#Product .section_3 .section_3_caja .section_3_caja p {
+  margin-left: 60px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+#Product .section_3 .section_3_caja .section_3_caja h2 {
+  margin-left: 60px;
+}
+
+#Services {
+  width: 100%;
+  height: 800px;
+  background-image: url(images/section4-image.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+#Services .accordion_propio {
+  width: 45%;
+  height: 30%;
+  margin-left: 200px;
+  padding-top: 200px;
+}
+#Services .accordion_propio .accordion_propio p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #5F6368;
+}
+#Services .accordion_propio .accordion_propio button {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #5F6368;
+}
+
+#Contact {
+  width: 100%;
+  height: 800px;
+  background: #e7e7e7;
+  background: linear-gradient(90deg, #e7e7e7 75%, #bbbbbb 75%);
+}
+#Contact .fondo_contact {
+  width: 600px;
+  height: 400px;
+  margin-top: 200px;
+  margin-right: 200px;
+  background-image: url(images/contact-image.png);
+  background-position: center;
+  background-size: cover;
+  float: right;
+}
+#Contact .text5 {
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  margin-left: 200px;
+  padding-top: 120px;
+}
+#Contact .formulario {
+  width: 600px;
+  margin-left: 200px;
+  float: left;
+}
+#Contact .formulario .formulario button {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 10px 54px;
+  margin-top: 40px;
+  background-color: #e0752f;
+  border: solid #e0752f;
+  border-radius: 25px;
+}
+#Contact .formulario .formulario input, #Contact .formulario textarea, #Contact .formulario button {
+  margin: 5px 0;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #343434;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer footer img {
+  margin-right: 200px;
+}
+footer footer p {
+  color: #dce1da;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-left: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
