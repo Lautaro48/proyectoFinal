@@ -3,17 +3,17 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 25px;}
     .logo{
     padding-left: 100px;
     }
     .menu{
     display: flex;
     padding-right: 110px;
-        .menu li{
+        & li{
         list-style: none;
         margin: 25px;
-            .menu li a{
+            & a{
             text-decoration: none;
             color: $color-primario;
             font-family: $tipografia-roboto;
@@ -21,4 +21,3 @@
             }
         }
     }
-}

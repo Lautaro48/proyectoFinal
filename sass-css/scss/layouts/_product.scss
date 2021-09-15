@@ -5,31 +5,30 @@
     justify-content: center;
     align-items: center;
     background: rgb(231,231,231);
-    background: linear-gradient(90deg, rgba(231,231,231,1) 75%, rgba(187,187,187,1) 75%);
+    background: linear-gradient(90deg, rgba(231,231,231,1) 75%, rgba(187,187,187,1) 75%);}
     .section_3 {
     width: 1000px;
     height: 600px;
-    background-image: url(images/section3-image.png);
+    background-image: url(/images/section3-image.png);
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end;}
         .section_3_caja {
         width: 500px;
         height: 300px;
         background-color: $color-secundario;
         color: $color-primario;
-            .section_3_caja p {
+            p {
             margin-left: 60px;
             margin-top: 30px;
             font-family: $tipografia-roboto;
             font-size: 16px;
             font-weight: 400;
             }
-            .section_3_caja h2 {
+            h2 {
             margin-left: 60px;
             }
         }
-    }
     
-}
+    

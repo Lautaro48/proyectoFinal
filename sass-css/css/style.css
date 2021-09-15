@@ -11,7 +11,7 @@ html {
 header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/slider-1.png);
+  background-image: url(/images/slider-1.png);
   background-size: cover;
   background-position: center;
 }
@@ -29,7 +29,7 @@ header .text2 {
   margin-top: 30px;
   margin-left: 110px;
 }
-header header button {
+header button {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -48,18 +48,20 @@ header header button {
   justify-content: space-between;
   padding: 25px;
 }
-.nav .logo {
+
+.logo {
   padding-left: 100px;
 }
-.nav .menu {
+
+.menu {
   display: flex;
   padding-right: 110px;
 }
-.nav .menu .menu li {
+.menu li {
   list-style: none;
   margin: 25px;
 }
-.nav .menu .menu li .menu li a {
+.menu li a {
   text-decoration: none;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -71,27 +73,30 @@ header header button {
   width: 100%;
   height: 700px;
 }
-#About .caja_orange {
+
+.caja_orange {
   width: 30px;
   height: 400px;
   background-color: #e0752f;
   float: left;
   margin-top: 150px;
 }
-#About .text3 {
+
+.text3 {
   width: 400px;
   font-family: "Poppins", sans-serif;
   font-size: 39px;
   margin-top: 40px;
   margin-left: 400px;
 }
-#About .text3 .black {
+.text3 .black {
   color: #343434;
 }
-#About .text3 .orange {
+.text3 .orange {
   color: #e0752f;
 }
-#About .text4 {
+
+.text4 {
   width: 750px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -107,52 +112,55 @@ header header button {
   background: #e7e7e7;
   background: linear-gradient(90deg, #e7e7e7 75%, #bbbbbb 75%);
 }
-#Product .section_3 {
+
+.section_3 {
   width: 1000px;
   height: 600px;
-  background-image: url(images/section3-image.png);
+  background-image: url(/images/section3-image.png);
   background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
-#Product .section_3 .section_3_caja {
+
+.section_3_caja {
   width: 500px;
   height: 300px;
   background-color: #e0752f;
   color: #fff;
 }
-#Product .section_3 .section_3_caja .section_3_caja p {
+.section_3_caja p {
   margin-left: 60px;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-#Product .section_3 .section_3_caja .section_3_caja h2 {
+.section_3_caja h2 {
   margin-left: 60px;
 }
 
 #Services {
   width: 100%;
   height: 800px;
-  background-image: url(images/section4-image.png);
+  background-image: url(/images/section4-image.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
 }
-#Services .accordion_propio {
+
+.accordion_propio {
   width: 45%;
   height: 30%;
   margin-left: 200px;
   padding-top: 200px;
 }
-#Services .accordion_propio .accordion_propio p {
+.accordion_propio p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #5F6368;
 }
-#Services .accordion_propio .accordion_propio button {
+.accordion_propio button {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -165,29 +173,32 @@ header header button {
   background: #e7e7e7;
   background: linear-gradient(90deg, #e7e7e7 75%, #bbbbbb 75%);
 }
-#Contact .fondo_contact {
+
+.fondo_contact {
   width: 600px;
   height: 400px;
   margin-top: 200px;
   margin-right: 200px;
-  background-image: url(images/contact-image.png);
+  background-image: url(/images/contact-image.png);
   background-position: center;
   background-size: cover;
   float: right;
 }
-#Contact .text5 {
+
+.text5 {
   width: 300px;
   font-family: "Poppins", sans-serif;
   font-size: 39px;
   margin-left: 200px;
   padding-top: 120px;
 }
-#Contact .formulario {
+
+.formulario {
   width: 600px;
   margin-left: 200px;
   float: left;
 }
-#Contact .formulario .formulario button {
+.formulario button {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -197,7 +208,7 @@ header header button {
   border: solid #e0752f;
   border-radius: 25px;
 }
-#Contact .formulario .formulario input, #Contact .formulario textarea, #Contact .formulario button {
+.formulario input, .formulario textarea, .formulario button {
   margin: 5px 0;
 }
 
@@ -209,10 +220,12 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-footer footer img {
+
+footer img {
   margin-right: 200px;
 }
-footer footer p {
+
+footer p {
   color: #dce1da;
   font-family: "Roboto", sans-serif;
   font-size: 16px;

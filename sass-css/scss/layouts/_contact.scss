@@ -2,13 +2,13 @@
     width: 100%;
     height: 800px;
     background: rgb(231,231,231);
-    background: linear-gradient(90deg, rgba(231,231,231,1) 75%, rgba(187,187,187,1) 75%);
+    background: linear-gradient(90deg, rgba(231,231,231,1) 75%, rgba(187,187,187,1) 75%);}
     .fondo_contact {
     width: 600px;
     height: 400px;
     margin-top: 200px;
     margin-right: 200px;
-    background-image: url(images/contact-image.png);
+    background-image: url(/images/contact-image.png);
     background-position: center;
     background-size: cover;
     float: right;
@@ -24,7 +24,7 @@
     width: 600px;
     margin-left: 200px;
     float: left;
-        .formulario button {
+        button {
         color: $color-primario;
         font-family: $tipografia-roboto;
         font-size: 16px;
@@ -32,10 +32,8 @@
         margin-top: 40px;
         background-color: $color-secundario;
         border: solid $color-secundario;
-        border-radius: 25px;
-        }
-        .formulario input, textarea, button {
-        margin: 5px 0;
-        }
-    }
-}
+        border-radius: 25px;}
+        input, textarea, button {
+        margin: 5px 0;}
+    }     
+    
